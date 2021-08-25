@@ -4,6 +4,8 @@
   --primary-white:#fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red:#ef4035;
+  --primary-hover-red:#f33501;
 }
 
 body{
@@ -88,4 +90,49 @@ nav ul li{
 
 .navbar-nav > li >a:hover{
   border-top: 5px solid var(--primary-orange);
+}
+
+/**********************************HEADER*************************************************/
+.header-wrapper{
+  position: relative;
+  background: url(coding.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  opacity: 0.9;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/**********************TYPED TEXT******************************/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+
+/*************************HEADER MAIN OFFER BUTTON*******************************************/
+.btn-main-offer{
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 9px 15px 12px 15px;
+  color: var(--primary-white);
+  margin: 2rem;
 }
