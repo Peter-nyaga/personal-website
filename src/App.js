@@ -16,6 +16,13 @@ function App() {
                 enable:true,
                 value_area:900
               }
+            },
+            shape:{
+              type: "star",
+              stroke:{
+                width: 6,
+                color: "#f9ab00"
+              }
             }
           }
         }}
