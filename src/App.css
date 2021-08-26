@@ -57,6 +57,7 @@ body{
 
 }
 
+
 /**********************************MENU LINKS*************************************************/
 nav a.nav-link{
   /*font-weight: 500;*/
@@ -89,13 +90,13 @@ nav ul li{
   }
 }
 
-.navbar-nav >li>a.active, .navbar-nav > li >a.active:focus{
-  border-top: 5px solid var(--primary-orange);
+.navbar-nav >li>a.active, .navbar-nav > li >a:focus{
+  /*border-top: 5px solid var(--primary-orange);*/
   border-bottom: 5px solid var(--primary-orange);
 }
 
 .navbar-nav > li >a:hover{
-  border-bottom: 5px solid var(--primary-orange);
+ /*border-bottom: 5px solid var(--primary-orange);*/
 }
 
 /**********************************HEADER*************************************************/
@@ -104,8 +105,8 @@ nav ul li{
   background: url(coding.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 75vh;
-  opacity: 0.9;
+  height: 80vh;
+  /*opacity: 0.9;*/
 }
 
 .main-info{
@@ -171,4 +172,49 @@ nav ul li{
 
 nav{
   z-index: 2;
+}
+/************************About section*****************************/
+.section{
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+/****************************Footer section****************************/
+.footer{
+  padding-bottom: 1;
+}
+
+.main-heading{
+  color: var(--primary-hover-red);
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.underline{
+  height: 04px;
+  width: 20rem;
+  background-color: var(--primary-orange);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.abt{
+  text-align: justify;
+  opacity: 0.9;
+}
+.about{
+  background-image: url(../src/running-code.jpg);
+  height: 75vh;
+  background-size: cover;
+  
+}
+.contact{
+  background-image: url(../src/Contactus.jpg);
+  height: 75vh;
+  background-size: cover;
+}
+.footer{
+  z-index: 1;
+}
+.get{
+  text-align: center;
+  font-size: 50px;
 }
